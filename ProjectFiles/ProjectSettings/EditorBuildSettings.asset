@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/init.unity
+    guid: 3b84a54a201030e4596070bdff5a5d8b
+  - enabled: 1
+    path: Assets/Scenes/select.unity
+    guid: 91404bd000420c24d88bdb9dd9c220e3
+  - enabled: 1
+    path: Assets/AndrijaAssets/Scenes/practice.unity
+    guid: 3f6546092fdb0c840ad02b884df7ae78
+  - enabled: 1
+    path: Assets/AndrijaAssets/Scenes/PianoScene.unity
+    guid: acd83dcdbe8209b49b789a4b5774a38c
+  - enabled: 1
+    path: Assets/AndrijaAssets/Scenes/PianoSceneFree2.unity
+    guid: 40eb9754d098c6d429143cec05b928b7
+  - enabled: 1
+    path: Assets/AndrijaAssets/Scenes/PianoSceneFree3.unity
+    guid: b82c9af7de3899c4d9573ccdbc3f899c
+  - enabled: 1
+    path: Assets/Scenes/about.unity
+    guid: cce416e2944aa4e418b214ffbd08e52d
+  - enabled: 0
+    path: 
+    guid: a83f9d6622405b54e897d96963ecb39a

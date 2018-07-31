@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BlackKeysSimple
+  m_Shader: {fileID: 3, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 5, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmitMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 4d38c4726a964634bae5ff06583c3844, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .0553517975
+      data:
+        first:
+          name: _NormalZScale
+        second: 1
+      data:
+        first:
+          name: _EmitStrength
+        second: 0
+      data:
+        first:
+          name: _RimPower
+        second: .50999999
+      data:
+        first:
+          name: _RefractiveIndex
+        second: 1
+      data:
+        first:
+          name: _AniX
+        second: -1.17999995
+      data:
+        first:
+          name: _AniY
+        second: -.0799999982
+      data:
+        first:
+          name: _Intensity
+        second: 7.61000013
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .279892325, g: .552476645, b: .784313738, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .0799692422, g: .348166853, b: .509803951, a: 1}
+      data:
+        first:
+          name: _ReflectiveColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _RefractiveColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _BackScatter
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Translucence
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: 0, g: 0, b: 0, a: 0}

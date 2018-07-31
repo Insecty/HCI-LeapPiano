@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2F7B1F3-1267-A780-1C26-ADCF952FE637}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor.dll</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.6f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_6;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>F:/unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:/unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>F:/unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>F:/unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="FX Quest">
+      <HintPath>Assets/FX Quest/Editor/FX Quest.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="LeapCSharp.NET3.5">
+      <HintPath>Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="DecalSystem.Runtime">
+      <HintPath>Assets/Plugins/Decal System/DecalSystem.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DecalSystem.Editor">
+      <HintPath>Assets/Plugins/Editor/Decal System/DecalSystem.Editor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ProjectFiles.Plugins.csproj">
+      <Project>{3FC88A20-79E3-C447-C1B8-7F1944686F09}</Project>
+      <Name>ProjectFiles.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="ProjectFiles.Plugins.unityproj">
+      <Project>{3FC88A20-79E3-C447-C1B8-7F1944686F09}</Project>
+      <Name>ProjectFiles.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="ProjectFiles.csproj">
+      <Project>{0D4A6D49-B77F-9F25-D2D1-9AA030DF98DC}</Project>
+      <Name>ProjectFiles</Name>
+    </ProjectReference>
+    <ProjectReference Include="ProjectFiles.Editor.Plugins.csproj">
+      <Project>{84CFBE20-B1F3-0BE5-7E18-9A62D0941AAE}</Project>
+      <Name>ProjectFiles.Editor.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioController_Editor.cs" />
+    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioItemOverview.cs" />
+    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioLogView.cs" />
+    <Compile Include="Assets\AudioToolkit\AudioToolkit\Editor\AudioObject_Editor.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\EditorToolSet.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\PackagesWindow.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\StageCameraEditor.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\UIConfigEditor.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\UIContentScalerEditor.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\UIPainterEditor.cs" />
+    <Compile Include="Assets\FairyGUI\Scripts\Editor\UIPanelEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_InspectorHelpEditor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AndrijaAssets\Prefabs\BlobParticleFX\AddMultiply.shader" />
+    <None Include="Assets\AndrijaAssets\Shaders\MDSRNACube optimized .shader" />
+    <None Include="Assets\AndrijaAssets\Shaders\MDSRNACube optimized 1.shader" />
+    <None Include="Assets\AudioToolkit\Readme.txt" />
+    <None Include="Assets\FairyGUI\ReadMe - 2.2.0.txt" />
+    <None Include="Assets\FairyGUI\Resources\Shaders\AddOn\FairyGUI-BlurFilter.shader" />
+    <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-BMFont.shader" />
+    <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Image.shader" />
+    <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Text-Brighter.shader" />
+    <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-Text.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\Plugins\Decal System\DecalSystem.Runtime.xml" />
+    <None Include="Assets\Plugins\Decal System\Readme.txt" />
+    <None Include="Assets\Plugins\Decal System\Release Notes.txt" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-Alpha-Bumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-Alpha-Diffuse-Colored.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-Alpha-Diffuse.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-Alpha-TargetBumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-Alpha-VertexLit.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-AlphaTest-Bumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-AlphaTest-Diffuse.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-AlphaTest-TargetBumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Decal-AlphaTest-VertexLit.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Mobile\Mobile-Decal-Alpha-Bumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Mobile\Mobile-Decal-Alpha-Diffuse.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Mobile\Mobile-Decal-Alpha-TargetBumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Mobile\Mobile-Decal-AlphaTest-Bumped.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Mobile\Mobile-Decal-AlphaTest-Diffuse.shader" />
+    <None Include="Assets\Plugins\Decal System\Shader\Mobile\Mobile-Decal-AlphaTest-TargetBumped.shader" />
+    <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+    <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Add.shader" />
+    <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_MotionBlur_Div.shader" />
+    <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\AVProMovieCapture_ODSMerge.shader" />
+    <None Include="Assets\Plugins\RenderHeads\AVProMovieCapture\Resources\CubemapToEquirectangular.shader" />
+    <None Include="Assets\Plugins\release_history.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
