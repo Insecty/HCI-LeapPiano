@@ -3,10 +3,10 @@ An application for playing the piano with Leap Motion.
 
 
 
-Unity Version: 5.6.6f2 (32-bit)
+__Unity Version:__ 5.6.6f2 (32-bit)
 
-Demo: test.exe 
+__Demo:__ test.exe 
 
-Demo Video: 
+__Demo Video:__ 
 
-Author: @Cui @Kunyu @Yiqun
+__Author:__ @Cui @Kunyu @Yiqun
